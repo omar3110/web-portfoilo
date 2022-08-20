@@ -6,13 +6,25 @@ h1{
 }
 .highlight{
     color: orange;
+    
 }
 .half-width{
     width: 40%;
     float: left;
-    margin: 5%;
-    padding: auto;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .half-width img{
     width: 100%;
 }
+
+.spaces{
+    text-align: left;
+}
+    
+.image{
+    width: 1%;
+    float: left;
+    margin: none;
+}
+
