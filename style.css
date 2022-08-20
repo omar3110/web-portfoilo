@@ -1,5 +1,7 @@
 body{
     font-family: 'Aboreto', cursive;
+    margin: 0;
+    width: 100%;
 }
 h1{
     font-size: 50px;
@@ -9,10 +11,12 @@ h1{
     
 }
 .half-width{
-    width: 40%;
+    width: 43%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left: auto;
+    margin-bottom: 5%;
+    padding-bottom: auto;
 }
 .half-width img{
     width: 100%;
@@ -25,6 +29,32 @@ h1{
 .image{
     width: 1%;
     float: left;
-    margin: none;
+    margin: 0;
 }
 
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgba(235, 170, 50, 0.459), tan);
+    padding: 10px 35px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.image2{
+    
+    display: block;
+    margin-left: auto;
+
+}
+.half-width2{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: auto%;
+    margin-bottom: 5%;
+    padding-bottom: auto;
+}
+.half-width2 img{
+    width: 100%;
+}
+}
