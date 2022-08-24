@@ -15,8 +15,8 @@ h1{
     float: left;
     margin-left: 5%;
     padding-left: auto;
-    margin-bottom: 5%;
-    padding-bottom: auto;
+    /* margin-bottom: 5%;
+    padding-bottom: auto; */
 }
 .half-width img{
     width: 100%;
@@ -42,7 +42,7 @@ h1{
 }
 .image2{
     
-    display: block;
+    float: right;
     margin-left: auto;
 
 }
@@ -50,11 +50,15 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: auto%;
-    margin-bottom: 5%;
-    padding-bottom: auto;
+    padding-left: auto;
+    /* margin-bottom: 5%;
+    padding-bottom: auto; */
 }
 .half-width2 img{
     width: 100%;
 }
+
+.section{
+    height: 500px;
+    padding-bottom: 150px;
 }
